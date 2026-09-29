@@ -1,0 +1,12 @@
+# CPU build of torch/torchvision (no GPU needed)
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+langchain==1.4.2
+langchain-docling==3.0.0
+
+# Full docling (not docling-slim): brings layout/table/OCR model deps
+# like docling-ibm-models, opencv-python, rapidocr, pypdfium2
+docling==2.130.0
+
+torch==2.14.0
+torchvision==0.29.0
